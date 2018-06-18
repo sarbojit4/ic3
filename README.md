@@ -3,7 +3,7 @@ This program works for programs with boolean variables and a single loop. The pr
 ## installation-
 1> Copy the content to 2ls-master/src/2ls/summary_checker_base.cpp
 
-2> Inside summary_chaecker_base.cpp put the line like below-
+2> Inside summary_chaecker_base.cpp put the line in the end of SSA_functions() function like below-
 ````
     if(simplify)
     
@@ -22,7 +22,7 @@ This program works for programs with boolean variables and a single loop. The pr
   // properties
   initialize_property_map(goto_model.goto_functions);
 
-  CustomSSAOperation(ssa_db.get("main"), ns, "main");//----this line is added------//
+  CustomSSAOperation(ssa_db.get("main"), ns, "main");//----this line is added at line 83------//
 
 }
 ````
