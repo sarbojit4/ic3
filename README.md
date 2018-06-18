@@ -16,9 +16,9 @@ This program works for programs with boolean variables and a single loop. The pr
     }
 
     SSA.output(debug()); debug() << eom;
-    ```
+   ````
   }
-````
+  
   // properties
   initialize_property_map(goto_model.goto_functions);
 
