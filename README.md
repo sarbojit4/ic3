@@ -16,15 +16,16 @@ This program works for programs with boolean variables and a single loop. The pr
     }
 
     SSA.output(debug()); debug() << eom;
-    
+    ```
   }
-
+````
   // properties
   initialize_property_map(goto_model.goto_functions);
 
   CustomSSAOperation(ssa_db.get("main"), ns, "main");//----this line is added------//
 
 }
+````
 3> Recompile 2ls.
 ## Running-
 Run with "2ls program_name".
