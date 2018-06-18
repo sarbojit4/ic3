@@ -4,13 +4,19 @@ This program works for programs with boolean variables and a single loop. The pr
 1> Copy the content to 2ls-master/src/2ls/summary_checker_base.cpp
 
 2> Inside summary_chaecker_base.cpp put the line like below-
- if(simplify)
+
+    if(simplify)
+    
     {
+    
       status() << "Simplifying" << messaget::eom;
+      
       ::simplify(SSA, ns);
+      
     }
 
     SSA.output(debug()); debug() << eom;
+    
   }
 
   // properties
